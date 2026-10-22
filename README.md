@@ -131,10 +131,10 @@ I am a Computer Science &amp; Engineering Dual Degree undergraduate at **IIITDM 
 - **Email:** <a href="mailto:sreekartirumala0706@gmail.com"><code>sreekartirumala0706@gmail.com</code></a>
 - **GitHub:** <a href="https://github.com/Sreekar-2612"><code>@Sreekar-2612</code></a>
 - **University:** Indian Institute of Information Technology, Design and Manufacturing (IIITDM), Kancheepuram
-- **Location:** Chennai / Hyderabad, India
+- **Location:** Chennai / Guntur, India
 
 <br>
 
 <p align="center">
-  <sub>Built with Light Sky Blue Theme · Consistency · Calm Execution</sub>
+  <sub>Thank You , feel free to contact if interested to collaborate</sub>
 </p>
