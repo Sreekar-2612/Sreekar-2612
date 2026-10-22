@@ -44,9 +44,6 @@
 
 ### ☕ About Me
 
-> 🧊 *"Stay curious, build with patience, and let steady compounding do the heavy lifting."*  
-> 🌊 *Chill vibes, consistent code, and grounded first-principles thinking.*
-
 I am a Computer Science &amp; Engineering Dual Degree undergraduate at **IIITDM Kancheepuram**, working at the intersection of **Artificial Intelligence &amp; Machine Learning**, **Generative AI Systems**, and **Modern Software Engineering**.
 
 - **Focus &amp; Flow:** I believe in consistent, daily momentum rather than sporadic bursts. I spend my time exploring deep learning architectures, building agentic RAG workflows, and writing clean, reliable code.
