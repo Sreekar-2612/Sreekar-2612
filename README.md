@@ -1,28 +1,26 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner.svg">
-    <img alt="Sreekar — Software Engineering / Generative AI / Machine Learning" src="assets/profile-banner.svg" width="100%">
-  </picture>
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Tirumala Sai Raghava Sreekar</strong> &nbsp;·&nbsp; 
-  <code>IIITDM Kancheepuram</code> &nbsp;·&nbsp; 
-  <code>Chennai, India</code>
-</p>
+  <h1>Tirumala Sai Raghava Sreekar</h1>
 
-<p align="center">
-  <em>"Slow is smooth, smooth is fast. Consistency over intensity."</em>
-</p>
+  <h2>
+    <i>“ 𝑺𝒍𝒐𝒘 𝒊𝒔 𝒔𝒎𝒐𝒐𝒕𝒉, 𝒔𝒎𝒐𝒐𝒕𝒉 𝒊𝒔 𝒇𝒂𝒔𝒕 &nbsp;·&nbsp; 𝑺𝒕𝒓𝒊𝒗𝒆 𝒏𝒐𝒘, 𝒇𝒍𝒆𝒙 𝒍𝒂𝒕𝒆𝒓 ”</i>
+  </h2>
 
-<p align="center">
-  <a href="#-socials">Socials</a> &nbsp;·&nbsp;
-  <a href="#-about-me">About Me</a> &nbsp;·&nbsp;
-  <a href="#-technical-stream--commit-distribution">Distribution</a> &nbsp;·&nbsp;
-  <a href="#-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
-  <a href="#-connect">Contact</a>
-</p>
+  <p>
+    <code>IIITDM Kancheepuram</code> &nbsp;·&nbsp; 
+    <code>Chennai, India</code> &nbsp;·&nbsp; 
+    <code>AI / ML · Generative AI · Software Engineering</code>
+  </p>
+
+  <p>
+    <a href="#-socials">Socials</a> &nbsp;·&nbsp;
+    <a href="#-about-me">About Me</a> &nbsp;·&nbsp;
+    <a href="#-technical-stream--commit-distribution">Distribution</a> &nbsp;·&nbsp;
+    <a href="#-tech-stack">Tech Stack</a> &nbsp;·&nbsp;
+    <a href="#-connect">Contact</a>
+  </p>
+
+</div>
 
 ---
 
