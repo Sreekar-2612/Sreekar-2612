@@ -1,0 +1,87 @@
+<svg width="100%" viewBox="0 0 1200 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg-dark { fill: #161719; }
+      .border-line-dark { stroke: #2E3136; stroke-width: 1; }
+      .grid-dotted-dark { stroke: #2E3136; stroke-width: 1; stroke-dasharray: 2 4; }
+      .txt-light { fill: #F7F7F4; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+      .txt-muted-dark { fill: #9AA0A6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .txt-mono-dark { font-family: "JetBrains Mono", "SF Mono", Consolas, monospace; fill: #9AA0A6; font-size: 11px; letter-spacing: 0.1em; }
+      .stat-num-dark { font-size: 42px; font-weight: 700; fill: #F7F7F4; letter-spacing: -0.03em; }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="290" fill="#141517"/>
+  <rect width="1200" height="290" fill="none" stroke="#2E3136" stroke-width="1.5"/>
+
+  <!-- Top Metadata Header -->
+  <line x1="0" y1="50" x2="1200" y2="50" class="border-line-dark"/>
+  <g transform="translate(60, 32)">
+    <text x="0" y="0" class="txt-mono-dark">METRICS // REPOSITORY ECOSYSTEM ANALYSIS</text>
+    <text x="460" y="0" class="txt-mono-dark">SAMPLE // 26 REPOSITORIES</text>
+    <text x="820" y="0" class="txt-mono-dark" fill="#5E82FF">VERIFIED GITHUB TELEMETRY</text>
+  </g>
+
+  <!-- 4-Column Metric Grid -->
+  <line x1="320" y1="50" x2="320" y2="160" class="grid-dotted-dark"/>
+  <line x1="600" y1="50" x2="600" y2="160" class="grid-dotted-dark"/>
+  <line x1="880" y1="50" x2="880" y2="160" class="grid-dotted-dark"/>
+  <line x1="0" y1="160" x2="1200" y2="160" class="border-line-dark"/>
+
+  <!-- Stat 1 -->
+  <g transform="translate(60, 95)">
+    <text x="0" y="0" class="stat-num-dark">26</text>
+    <text x="0" y="22" class="txt-mono-dark">PUBLIC REPOSITORIES</text>
+    <text x="0" y="40" class="txt-muted-dark" font-size="12">End-to-end systems &amp; pipelines</text>
+  </g>
+
+  <!-- Stat 2 -->
+  <g transform="translate(360, 95)">
+    <text x="0" y="0" class="stat-num-dark">81%</text>
+    <text x="0" y="22" class="txt-mono-dark">CORE ARCHITECTURES</text>
+    <text x="0" y="40" class="txt-muted-dark" font-size="12">21 original systems created</text>
+  </g>
+
+  <!-- Stat 3 -->
+  <g transform="translate(640, 95)">
+    <text x="0" y="0" class="stat-num-dark">4+</text>
+    <text x="0" y="22" class="txt-mono-dark">LIVE PRODUCTION DEPLOYS</text>
+    <text x="0" y="40" class="txt-muted-dark" font-size="12">Vercel, Supabase &amp; cloud endpoints</text>
+  </g>
+
+  <!-- Stat 4 -->
+  <g transform="translate(920, 95)">
+    <text x="0" y="0" class="stat-num-dark">100%</text>
+    <text x="0" y="22" class="txt-mono-dark">PASSING TEST HARNESS</text>
+    <text x="0" y="40" class="txt-muted-dark" font-size="12">Vitest, PyTest &amp; Arch validation</text>
+  </g>
+
+  <!-- Domain Distribution Bar Section -->
+  <g transform="translate(60, 195)">
+    <text x="0" y="0" class="txt-mono-dark">01 // DOMAIN SPECIALIZATION BREAKDOWN</text>
+    
+    <!-- Segmented progress bar (Width: 1080) -->
+    <g transform="translate(0, 15)">
+      <rect x="0" y="0" width="378" height="14" fill="#315EFB"/>
+      <rect x="382" y="0" width="266" height="14" fill="#E4E5E0"/>
+      <rect x="652" y="0" width="212" height="14" fill="#5E82FF"/>
+      <rect x="868" y="0" width="212" height="14" fill="#3E4249"/>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(0, 48)">
+      <rect x="0" y="-8" width="8" height="8" fill="#315EFB"/>
+      <text x="14" y="0" class="txt-light" font-size="12" font-weight="600">Deep Learning &amp; Vision (35%)</text>
+
+      <rect x="270" y="-8" width="8" height="8" fill="#E4E5E0"/>
+      <text x="284" y="0" class="txt-light" font-size="12" font-weight="600">Computer Systems &amp; xv6 (25%)</text>
+
+      <rect x="540" y="-8" width="8" height="8" fill="#5E82FF"/>
+      <text x="554" y="0" class="txt-light" font-size="12" font-weight="600">Generative AI &amp; RAG (20%)</text>
+
+      <rect x="810" y="-8" width="8" height="8" fill="#70747C"/>
+      <text x="824" y="0" class="txt-light" font-size="12" font-weight="600">Full-Stack Platforms &amp; GIS (20%)</text>
+    </g>
+  </g>
+</svg>
