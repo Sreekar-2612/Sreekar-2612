@@ -1,79 +1,84 @@
 <svg width="100%" viewBox="0 0 1100 310" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .txt-light { fill: #F7F7F4; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
-      .txt-muted-dark { fill: #9AA0A6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .txt-mono-dark { font-family: "JetBrains Mono", "SF Mono", Consolas, monospace; fill: #9AA0A6; font-size: 11px; letter-spacing: 0.1em; }
-      .bar-bg-dark { fill: #2A2D33; rx: 4px; }
-      .bar-aiml { fill: #315EFB; rx: 4px; }
-      .bar-genai { fill: #10B981; rx: 4px; }
-      .bar-dev-dark { fill: #E4E5E0; rx: 4px; }
+      .txt-navy { fill: #0B2545; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+      .txt-sub { fill: #1E3A8A; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .txt-mono { font-family: "JetBrains Mono", "SF Mono", Consolas, monospace; fill: #1E40AF; font-size: 11px; letter-spacing: 0.1em; }
+      .bar-bg { fill: #D6EBF8; rx: 4px; }
+      .bar-aiml { fill: #1D4ED8; rx: 4px; }
+      .bar-genai { fill: #0284C7; rx: 4px; }
+      .bar-dev { fill: #0F172A; rx: 4px; }
     </style>
+    <linearGradient id="streamBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F8FD"/>
+      <stop offset="50%" stop-color="#E1F1FB"/>
+      <stop offset="100%" stop-color="#CDE7FA"/>
+    </linearGradient>
   </defs>
 
   <!-- Background Canvas -->
-  <rect width="1100" height="310" fill="#141517" rx="8"/>
-  <rect width="1100" height="310" fill="none" stroke="#2E3136" stroke-width="1.5" rx="8"/>
+  <rect width="1100" height="310" fill="url(#streamBg)" rx="12"/>
+  <rect width="1100" height="310" fill="none" stroke="#89C2EC" stroke-width="1.5" rx="12"/>
 
   <!-- Top Metadata Header -->
-  <line x1="0" y1="46" x2="1100" y2="46" stroke="#2E3136" stroke-width="1"/>
+  <line x1="0" y1="46" x2="1100" y2="46" stroke="#89C2EC" stroke-width="1"/>
   <g transform="translate(45, 30)">
-    <text x="0" y="0" class="txt-mono-dark">TELEMETRY // TECHNICAL FOCUS &amp; COMMIT DISTRIBUTION</text>
-    <text x="500" y="0" class="txt-mono-dark">STREAMS // AI-ML · GEN-AI · DEVELOPMENT</text>
-    <text x="910" y="0" class="txt-mono-dark" fill="#5E82FF" text-anchor="end">LIVE ECOSYSTEM AUDIT</text>
+    <text x="0" y="0" class="txt-mono">TELEMETRY // TECHNICAL FOCUS &amp; COMMIT DISTRIBUTION</text>
+    <text x="500" y="0" class="txt-mono">STREAMS // AI-ML · GEN-AI · DEVELOPMENT</text>
+    <text x="910" y="0" class="txt-mono" fill="#0284C7" text-anchor="end">LIVE ECOSYSTEM AUDIT</text>
   </g>
 
   <!-- Vertical Divider between Pie and Bars -->
-  <line x1="330" y1="46" x2="330" y2="310" stroke="#2E3136" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="330" y1="46" x2="330" y2="310" stroke="#89C2EC" stroke-width="1" stroke-dasharray="2 4"/>
 
   <!-- LEFT: Precision Doughnut Pie Chart -->
   <g id="pie-chart-dark">
     <!-- Slice 1: AI / ML (45%) -->
-    <path d="M 170.00 70.00 A 90 90 0 0 1 199.30 245.10 L 188.17 212.74 A 56 56 0 0 0 170.00 104.00 Z" fill="#315EFB"/>
+    <path d="M 170.00 70.00 A 90 90 0 0 1 199.30 245.10 L 188.17 212.74 A 56 56 0 0 0 170.00 104.00 Z" fill="#1D4ED8"/>
     <!-- Slice 2: Gen AI (30%) -->
-    <path d="M 196.32 246.06 A 90 90 0 0 1 80.02 161.57 L 114.01 160.98 A 56 56 0 0 0 186.32 213.33 Z" fill="#10B981"/>
+    <path d="M 196.32 246.06 A 90 90 0 0 1 80.02 161.57 L 114.01 160.98 A 56 56 0 0 0 186.32 213.33 Z" fill="#0284C7"/>
     <!-- Slice 3: Development (25%) -->
-    <path d="M 80.02 158.43 A 90 90 0 0 1 168.42 70.01 L 169.02 104.01 A 56 56 0 0 0 114.01 159.02 Z" fill="#E4E5E0"/>
+    <path d="M 80.02 158.43 A 90 90 0 0 1 168.42 70.01 L 169.02 104.01 A 56 56 0 0 0 114.01 159.02 Z" fill="#0F172A"/>
 
     <!-- Center Legend Ring -->
-    <circle cx="170" cy="160" r="48" fill="#141517"/>
-    <text x="170" y="156" text-anchor="middle" class="txt-light" font-size="13" font-weight="700">CORE</text>
-    <text x="170" y="172" text-anchor="middle" class="txt-mono-dark" font-size="10" fill="#5E82FF">FOCUS</text>
+    <circle cx="170" cy="160" r="48" fill="#FFFFFF" stroke="#89C2EC" stroke-width="1"/>
+    <text x="170" y="156" text-anchor="middle" class="txt-navy" font-size="13" font-weight="700">CORE</text>
+    <text x="170" y="172" text-anchor="middle" class="txt-mono" font-size="10" fill="#0284C7">FOCUS</text>
   </g>
 
   <!-- RIGHT: Stream Distribution Bar Graphs & Detailed Metrics -->
   <g transform="translate(370, 75)">
     <!-- STREAM 1: AI / ML -->
     <g transform="translate(0, 0)">
-      <circle cx="6" cy="4" r="5" fill="#315EFB"/>
-      <text x="22" y="8" class="txt-light" font-size="15" font-weight="700">AI / Machine Learning &amp; Computer Vision</text>
-      <text x="680" y="8" class="txt-light" font-size="15" font-weight="700" text-anchor="end">45%</text>
-      <text x="22" y="27" class="txt-muted-dark" font-size="12">Vision Transformers (Swin / ViT) · Landsat 8 Radiometric AI · Medical CLIP · Time-Series</text>
+      <circle cx="6" cy="4" r="5" fill="#1D4ED8"/>
+      <text x="22" y="8" class="txt-navy" font-size="15" font-weight="700">AI / Machine Learning &amp; Computer Vision</text>
+      <text x="680" y="8" class="txt-navy" font-size="15" font-weight="700" text-anchor="end">45%</text>
+      <text x="22" y="27" class="txt-sub" font-size="12">Vision Transformers (Swin / ViT) · Landsat 8 Radiometric AI · Medical CLIP · Time-Series</text>
       <!-- Bar -->
-      <rect x="22" y="36" width="658" height="9" class="bar-bg-dark"/>
+      <rect x="22" y="36" width="658" height="9" class="bar-bg"/>
       <rect x="22" y="36" width="296" height="9" class="bar-aiml"/>
     </g>
 
     <!-- STREAM 2: Generative AI -->
     <g transform="translate(0, 75)">
-      <circle cx="6" cy="4" r="5" fill="#10B981"/>
-      <text x="22" y="8" class="txt-light" font-size="15" font-weight="700">Generative AI &amp; Agentic LLM Orchestration</text>
-      <text x="680" y="8" class="txt-light" font-size="15" font-weight="700" text-anchor="end">30%</text>
-      <text x="22" y="27" class="txt-muted-dark" font-size="12">LangChain LCEL · Tool-Calling Agents · FAISS Vector Search · Groq LPU Hardware Acceleration</text>
+      <circle cx="6" cy="4" r="5" fill="#0284C7"/>
+      <text x="22" y="8" class="txt-navy" font-size="15" font-weight="700">Generative AI &amp; Agentic LLM Orchestration</text>
+      <text x="680" y="8" class="txt-navy" font-size="15" font-weight="700" text-anchor="end">30%</text>
+      <text x="22" y="27" class="txt-sub" font-size="12">LangChain LCEL · Tool-Calling Agents · FAISS Vector Search · Groq LPU Hardware Acceleration</text>
       <!-- Bar -->
-      <rect x="22" y="36" width="658" height="9" class="bar-bg-dark"/>
+      <rect x="22" y="36" width="658" height="9" class="bar-bg"/>
       <rect x="22" y="36" width="197" height="9" class="bar-genai"/>
     </g>
 
     <!-- STREAM 3: Development & Systems -->
     <g transform="translate(0, 150)">
-      <circle cx="6" cy="4" r="5" fill="#E4E5E0"/>
-      <text x="22" y="8" class="txt-light" font-size="15" font-weight="700">Full-Stack &amp; Systems Development</text>
-      <text x="680" y="8" class="txt-light" font-size="15" font-weight="700" text-anchor="end">25%</text>
-      <text x="22" y="27" class="txt-muted-dark" font-size="12">FastAPI REST Services · React 19 &amp; TypeScript · Supabase Realtime · C / xv6 OS &amp; Sockets</text>
+      <circle cx="6" cy="4" r="5" fill="#0F172A"/>
+      <text x="22" y="8" class="txt-navy" font-size="15" font-weight="700">Full-Stack &amp; Systems Development</text>
+      <text x="680" y="8" class="txt-navy" font-size="15" font-weight="700" text-anchor="end">25%</text>
+      <text x="22" y="27" class="txt-sub" font-size="12">FastAPI REST Services · React 19 &amp; TypeScript · Supabase Realtime · C / xv6 OS &amp; Sockets</text>
       <!-- Bar -->
-      <rect x="22" y="36" width="658" height="9" class="bar-bg-dark"/>
-      <rect x="22" y="36" width="165" height="9" class="bar-dev-dark"/>
+      <rect x="22" y="36" width="658" height="9" class="bar-bg"/>
+      <rect x="22" y="36" width="165" height="9" class="bar-dev"/>
     </g>
   </g>
 </svg>
